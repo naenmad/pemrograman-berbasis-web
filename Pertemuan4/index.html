@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Pendaftaran</h2>
+        <form action="/submit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="jenis_kelamin">Jenis Kelamin:</label>
+                <div class="radio-group">
+                    <input type="radio" id="pria" name="jenis_kelamin" value="Pria" required>
+                    <label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" required>
+                    <label for="wanita">Wanita</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="hobi">Hobi:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="hobi1" name="hobi" value="Membaca">
+                    <label for="hobi1">Membaca</label>
+                    <input type="checkbox" id="hobi2" name="hobi" value="Menulis">
+                    <label for="hobi2">Menulis</label>
+                    <input type="checkbox" id="hobi3" name="hobi" value="Olahraga">
+                    <label for="hobi3">Olahraga</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="kota">Pilih Kota:</label>
+                <select id="kota" name="kota" required>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Surabaya">Surabaya</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="foto">Upload Foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Daftar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
