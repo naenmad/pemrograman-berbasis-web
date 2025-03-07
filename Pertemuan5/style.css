@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    background-color: #01579b;
+    margin: 0;
+    font-size: 2em;
+    padding: 0.75em;
+}
+
+nav {
+    background-color: #0288d1;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    padding: 14px 20px;
+}
+
+nav li:hover {
+    background-color: #0277bd;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    flex: 3;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+}
+
+form input, form textarea, form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0277bd;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside h1, aside h2 {
+    font-size: 1.2em;
+    color: #0288d1;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    color: #01579b;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+aside p {
+    margin-top: 10px;
+    color: #333;
+}
+
+footer {
+    background-color: #01579b;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
