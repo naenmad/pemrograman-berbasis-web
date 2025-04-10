@@ -4,12 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pendaftaran</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+
+        .radio-group,
+        .checkbox-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h2>Form Pendaftaran</h2>
         <form action="/submit" method="post" enctype="multipart/form-data">
+            <!-- Rest of the form content remains the same -->
             <div class="form-group">
                 <label for="nama">Nama:</label>
                 <input type="text" id="nama" name="nama" required>
@@ -58,7 +87,7 @@
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Daftar">
+                <input type="submit" value="Daftar" class="btn btn-block">
             </div>
         </form>
     </div>
