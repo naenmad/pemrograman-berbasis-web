@@ -12,44 +12,57 @@
 <body>
     <header>
         <div class="container">
-            <h1>Pertemuan 10</h1>
-            <p>Latihan praktikum Pemrograman Berbasis Web</p>
+            <h1><i class="fab fa-php"></i> Pertemuan 10</h1>
+            <p>Latihan praktikum Pemrograman Berbasis Web dengan PHP</p>
         </div>
     </header>
 
-    <div class="container">
-        <div class="meeting-cards">
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-icon">
-                        <i class="fas fa-code"></i>
+    <div class="page-wrapper">
+        <div class="container">
+            <div class="meeting-cards">
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h2>Latihan 1</h2>
                     </div>
-                    <h2>Latihan 1</h2>
+                    <div class="card-body">
+                        <h3>Struktur Kontrol PHP</h3>
+                        <p>Implementasi penggunaan if-else, switch-case, dan operator ternary dalam PHP untuk logika
+                            kondisional.</p>
+                        <a href="latihan1.php" class="btn btn-block">
+                            <i class="fas fa-play"></i>
+                            Lihat Latihan
+                        </a>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h3>Latihan Pertama</h3>
-                    <p>Latihan dasar PHP untuk Pertemuan 10.</p>
-                    <a href="latihan1.php" class="btn btn-block">Lihat Latihan</a>
+
+                <div class="card fade-in" style="animation-delay: 0.2s;">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-repeat"></i>
+                        </div>
+                        <h2>Latihan 2</h2>
+                    </div>
+                    <div class="card-body">
+                        <h3>Perulangan PHP</h3>
+                        <p>Penggunaan loop for, while, dan foreach untuk iterasi data serta manipulasi array dalam PHP.
+                        </p>
+                        <a href="latihan2.php" class="btn btn-block">
+                            <i class="fas fa-play"></i>
+                            Lihat Latihan
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h2>Latihan 2</h2>
-                </div>
-                <div class="card-body">
-                    <h3>Latihan Kedua</h3>
-                    <p>Latihan lanjutan PHP untuk Pertemuan 10.</p>
-                    <a href="latihan2.php" class="btn btn-block">Lihat Latihan</a>
-                </div>
+            <div class="back-link">
+                <a href="../index.html">
+                    <i class="fas fa-arrow-left"></i>
+                    Kembali ke Beranda
+                </a>
             </div>
-        </div>
-
-        <div class="back-link">
-            <a href="../index.html"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</a>
         </div>
     </div>
 
